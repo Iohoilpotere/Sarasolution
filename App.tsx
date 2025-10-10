@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection'; // New import
-import logo from './assets/logo-saras.png';
 
 // Page enum and page state are removed for a single-page layout.
 
@@ -20,7 +19,6 @@ const App: React.FC = () => {
       </main>
       <Footer />
     </div>
-    <img src={logo} alt="SARAS" className="h-12 inline-block align-middle" />
   );
 };
 
